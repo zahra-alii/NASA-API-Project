@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+		<link rel="stylesheet" href="style.css">
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+		<h1>Cosmic Wonders: NASA's Space Gallery</h1>
+		</header>
+
+		<div class="caption">
+		<p><em>Wanna see what was happening in space on any given week and year?</em></p>
+			<span><em>Just pick a date, click the button and get NASA’s weekly photos directly from their database!</em></span>
+		</div>
+		<div class="birthday-mode">
+			<input id="birthday-date" type="date" name="" value="">
+			<button id="birthdayBtn">Show Me Space!</button>
+		</div>
+
+		<div id="gallery">
+			<div class="carousel">
+				<button class="carousel-btn back" id="backBtn">Back</button>
+				<button class="carousel-btn next" id="nextBtn">Next</button>
+				<div class="carousel-container" id="carousel-container">
+				</div>
+			</div>
+		</div>
+
+		<footer>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
